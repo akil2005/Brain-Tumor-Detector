@@ -1,0 +1,33 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Build outputs
+dist/
+build/
+
+# Python / Model files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+*.h5
+*.hdf5
+*.pkl
+
+# Uploads & Temp
+Back-End/uploads/*
+!Back-End/uploads/.gitkeep
+Back-End/temp/*
+!Back-End/temp/.gitkeep
+
+# Environment variables & IDEs
+.env
+.env.local
+.vscode/
+.idea/
+.DS_Store
